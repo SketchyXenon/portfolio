@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(cafe-menu/img/bg-for-cafe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Lobster Two';
+    flex-grow: 1;
+    padding: 1rem;
+    margin: 0rem;
+    border-color: #DBDBDB;
+}
+nav{
+    background-color: #664343;
+    color: #DBDBDB;
+    background-color: #6C4E31;
+    padding: 1rem 0;
+    box-shadow: 0px 1px 2px 5px #664343;
+a {
+      color: #DBDBDB;
+      text-decoration: none; 
+}
+
+}
+nav :hover{
+ color: #E1B07E;
+}
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #795757;
+    margin: auto;
+    text-align: center;
+    font-size: 2.0rem;
+    color: #E1B07E;
+    margin: 1rem;
+    padding: 10px;
+    border: 100rem;
+    box-shadow: 0px 1px 2px 5px #664343;
+    position: sticky;
+}
+
+.drinks{
+    background: url(cafe-menu/img/drinks.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;   
+    text-align: center;
+    border-radius: 7rem;
+    border-style: dotted;
+    border-color: #664343;
+    font-size: 2rem;
+    padding: 1rem;
+    box-shadow: 0px 1px 2px 5px #664343;
+    color: #E1B07E;
+    padding: 2rem;
+li{
+    background-color:transparent;
+    border-radius: 7rem;
+    border-color: #664343;
+    color:#E1B07E;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+} 
+}
+.drinks :hover
+{
+
+   color:#FFF0D1;
+   cursor: pointer;
+   border: none;
+   display: inline-block;
+   border-radius: 1rem;
+   transition: background-color 0.3 ease;
+   color: white;
+  
+}
+.snacks{
+    background: url(cafe-menu/img/snacks.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;   
+    text-align: center;
+    border-radius: 7rem;
+    border-style: dotted;
+    border-color: #664343;
+    font-size: 2rem;
+    padding: 1rem;
+    box-shadow: 0px 1px 2px 5px #664343;
+    color:#E1B07E;
+    padding: 2rem;  
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+} 
+}
+li{
+    background-color: transparent;
+    border-radius: 7rem;
+    color:#E1B07E;
+}
+.snacks :hover{
+    color:#FFF0D1;
+   cursor: pointer;
+   border: none;
+   display: inline-block;
+   color: #664343;
+   border-radius: 1rem;
+   transition: background-color 0.3 ease;
+   color: whitesmoke;
+}
+footer{
+   margin: 0;
+   padding: 2.0rem;
+   text-align: center;
+   background-color: #795757;
+   color: #FFF0D1;
+   box-shadow: 0px 1px 2px 5px #664343;
+   border-style: dashed;
+   border-color: #795757;
+}
